@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Média</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="page-title">Calculadora de Média</h1>
+    <p class="page-subtitle">Descubra qual a sua média escolar!</p>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+  </div>
+
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  </a>
+
+  <div class="info-aluno">
+    <div class="btn-label">
+      <label for="nome" class="texto-label">Nome</label>
+      <input type="text" id="nome">
+    </div>
+    <div class="btn-label">
+      <label for="media" class="texto-label">Média Escolar</label>
+      <input type="number" id="media">
+    </div>
+  </div>
+
+  <div class="btn">
+    <div class="btn-label">
+      <label for="unidade1" class="texto-label">Nota Unidade 1</label>
+      <input type="number" id="unidade1">
+    </div>
+    <div class="btn-label">
+      <label for="unidade2" class="texto-label">Nota Unidade 2</label>
+      <input type="number" id="unidade2">
+    </div>
+    <div class="btn-label">
+      <label for="unidade3" class="texto-label">Nota Unidade 3</label>
+      <input type="number" id="unidade3">
+    </div>
+    <div class="btn-label">
+      <label for="unidade4" class="texto-label">Nota Unidade 4</label>
+      <input type="number" id="unidade4">
+    </div>
+  </div>
+
+  <button type="submit" onclick="calcularNota()">Calcular</button>
+  <button type="submit" onclick="limparCampo()">Limpar</button>
+
+
+  <h2 id="exibirResultado"></h2>
+</body>
+<script src="main.js"></script>
+
+</html>

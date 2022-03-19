@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  font-family: 'Fredoka', sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+.page-title {
+  margin: 10px 0;
+  font-size: 2.8rem;
+  color: #0b2545;
+}
+
+.page-subtitle {
+  color: #0b2545;
+  font-size: 1.2rem;
+}
+
+.page-logo {
+  width: 200px;
+  margin-top: 10px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px;
+  flex-wrap: wrap;
+}
+
+.info-aluno {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.btn-label {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.texto-label {
+  margin-bottom: 6px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+input, button {
+  outline: none;
+  border: 2px solid #0b2545;
+  border-radius: 20px;
+  padding: 8px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.205);
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-family: 'Fredoka', sans-serif;
+  color: #0b2545;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+button:hover {
+  background: #d8d8d8;
+}
+
+h2 {
+  color: #0b2545;
+  text-align: center;
+  margin: 70px;
+}

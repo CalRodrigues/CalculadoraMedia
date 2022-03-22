@@ -24,10 +24,11 @@ function calcularNota() {
 }
 
 function limparCampo() {
-  document.getElementById('nome').value = ' '
-  document.getElementById('media').value = ' '
-  document.getElementById('unidade1').value = ' '
-  document.getElementById('unidade2').value = ' '
-  document.getElementById('unidade3').value = ' '
-  document.getElementById('unidade4').value = ' '
+  nome.value = ' '
+  media.value = ' '
+  unidade1.value = ' '
+  unidade2.value = ' '
+  unidade3.value = ' '
+  unidade4.value = ' '
+  exibirResultado.innerHTML = " "
 }

@@ -11,16 +11,14 @@ function calcularNota() {
     (notaUnidade1 + notaUnidade2 + notaUnidade3 + notaUnidade4) / 4
   var notaFixada = notaFinal.toFixed(1)
 
-  if ((aprovacaoAluno = notaFinal > mediaEscolar)) {
-    aprovacaoAluno = `aprovado! Parabéns!!! 🥳`
-  } else if ((aprovacaoAluno = notaFinal < mediaEscolar)) {
-    aprovacaoAluno = `reprovado... 😔 Estude mais!`
-  }
+  var aprovacaoAluno =
+    notaFinal < mediaEscolar
+      ? 'reprovado... 😔 <br> Estude mais!'
+      : 'aprovado! 🥳 <br> Parabéns!!!'
 
-  var resultado = document.getElementById('exibirResultado')
   var resultadoFinal = `Olá, ${nomeAluno}, sua nota final foi ${notaFixada}, você foi ${aprovacaoAluno}`
-
-  resultado.innerHTML = resultadoFinal
+  document.getElementById('exibirResultado').innerHTML =
+    '<h2>' + resultadoFinal + '</h2>'
 }
 
 function limparCampo() {
@@ -30,5 +28,5 @@ function limparCampo() {
   unidade2.value = ' '
   unidade3.value = ' '
   unidade4.value = ' '
-  exibirResultado.innerHTML = " "
+  exibirResultado.innerHTML = ' '
 }

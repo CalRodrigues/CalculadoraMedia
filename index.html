@@ -12,13 +12,8 @@
 <body>
   <div class="container">
     <h1 class="page-title">Calculadora de Média</h1>
-    <p class="page-subtitle">Descubra qual a sua média escolar!</p>
-    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+    <p class="page-subtitle">calcule a sua média escolar!</p>
   </div>
-
-  <a href="https://alura.com.br/" target="_blank">
-    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
-  </a>
 
   <div class="info-aluno">
     <div class="btn-label">
@@ -50,11 +45,14 @@
     </div>
   </div>
 
-  <button type="submit" onclick="calcularNota()">Calcular</button>
-  <button type="submit" onclick="limparCampo()">Limpar</button>
+  <div class="btn-calculo">
+    <button type="submit" onclick="calcularNota()">Calcular</button>
+    <button type="submit" onclick="limparCampo()">Limpar</button>
+  </div>
 
+  <div id="exibirResultado" class="exibirResultado">
 
-  <h2 id="exibirResultado"></h2>
+  </div>
 </body>
 <script src="main.js"></script>
 

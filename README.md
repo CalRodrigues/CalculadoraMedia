@@ -1,23 +1,29 @@
-## Calculadora de Média
+# Calculadora de Média
 
 Calculadora para o aluno verificar sua aprovação escolar baseado em sua média e notas das unidades.
 
-### Imagem do Projeto:
+## :camera: Imagem do Projeto:
 
 ![calcmedia](https://user-images.githubusercontent.com/92582266/169674254-853c9055-0927-49cf-840f-f40cf59ca794.png)
 
-- - -
-
-### 📌 Tecnologias utilizadas:
+## :pushpin: Tecnologias Utilizadas:
 
 + HTML
 + CSS
 + Javascript
 
-- - -
+## :pencil2: Conceitos Aplicados:
 
-### 📎 Link do projeto:
++ Manipulação do DOM
+
+## :link: Link do Projeto:
 
 + <a href="https://calrodrigues.github.io/CalculadoraMedia/" target="_blank">Calculadora de Média</a>
+
+## :hammer: Status do Projeto: 
+
+:rocket: Finalizado
+
+<br>
 
 <p align="center">Feito com 💜 por <strong>Carol Rodrigues</strong></p>

@@ -10,7 +10,7 @@ Calculadora para o aluno verificar sua aprovação escolar baseado em sua média
 
 + HTML
 + CSS
-+ Javascript
++ JavaScript
 
 ## :pencil2: Conceitos Aplicados:
 
@@ -18,7 +18,7 @@ Calculadora para o aluno verificar sua aprovação escolar baseado em sua média
 
 ## :link: Link do Projeto:
 
-+ <a href="https://calrodrigues.github.io/CalculadoraMedia/" target="_blank">Calculadora de Média</a>
++ <a href="https://calrodrigues.github.io/CalculadoraMedia/">Calculadora de Média</a>
 
 ## :hammer: Status do Projeto: 
 
